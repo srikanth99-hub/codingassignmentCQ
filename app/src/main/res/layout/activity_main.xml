@@ -1,0 +1,80 @@
+<!--
+  ~ This file is part of the PhotoEditor Software Development Kit.
+  ~
+  ~ Copyright (C) 2016 9elements GmbH <contact@9elements.com>
+  ~ All rights reserved.
+  ~
+  ~ Redistribution and use in sourceType and binary forms, without
+  ~ modification, are permitted provided that the following license agreement
+  ~ is approved and a legal/financial contract was signed by the user.
+  ~
+  ~ The license agreement can be found under the following link:
+  ~
+  ~ https://www.photoeditorsdk.com/LICENSE.txt
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp"
+              android:paddingTop="16dp"
+              android:paddingBottom="16dp"
+              tools:context=".MainActivity"
+              android:background="#FFFFFF"
+              android:layout_alignParentTop="true">
+<!--    <TextView-->
+<!--        android:id="@+id/showVersion"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        -->
+<!--        android:gravity="left|start"-->
+<!--        android:text="@string/app_name"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textColor="#4C4C4C" />-->
+
+<!--    <ly.img.android.pesdk.ui.widgets.ImageSourceView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="10dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_weight="1"-->
+<!--        android:src="@drawable/logo" />-->
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:src="@drawable/logo"/>
+    <Button
+        android:id="@+id/openGallery"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_margin="8dp"
+        android:textSize="12sp"
+        android:text="TAKE FROM GALLERY"
+        android:textColor="#4C4C4C"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_launcher_background"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/infoTex"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_weight="1dp"-->
+<!--        android:text="" />-->
+
+   <Button
+       android:id="@+id/openCamera"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Capture Image"
+       android:background="#FFFFFF"
+       android:layout_weight="0.5"
+       android:height="20dp"
+       android:width="1dp"/>
+
+
+
+</LinearLayout>
+
