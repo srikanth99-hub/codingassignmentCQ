@@ -10,4 +10,3 @@ Note:To publish this app thier is a certification/license error of SDK
 ![Annotation 2021-08-20 142224](https://user-images.githubusercontent.com/70009863/130208224-207fb0e3-ff78-4953-b914-bf9ede080152.png)
 
 
-https://github.com/srikanth99-hub/codingassignmentCQ/blob/main/cqassignment%20working.mp4
